@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex justify-center items-center '>
             Shivareddy &nbsp;
-            <span className='sm:block hidden text-[12px] flex '> | CSE (AI&DS) |  VNR VJIET |  Student  |  Learn and build </span>
+            <span className='sm:block hidden text-[12px] flex '> CSE | 3rd Year B.Tech | VNR VJIET </span>
           </p>
         </Link>
 

@@ -81,6 +81,8 @@ const LeadershipExperience = () => {
   );
 };
 
+const LeadershipExperienceSection = SectionWrapper(LeadershipExperience, "leadership");
+
 const Experience = () => {
   return (
     <>
@@ -103,7 +105,7 @@ const Experience = () => {
         </VerticalTimeline>
       </div>
       {/* Leadership Experience Section */}
-      <LeadershipExperience />
+      <LeadershipExperienceSection />
     </>
   );
 };
